@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Girls Who Code Portfolio </title>
+        <script src = "portfolio-html.js"></script>
+        <link rel = "stylesheet" href = "portfolio-html.css"/>
+    </head>
+    <body style = "background-color:powderblue;">
+    <h1>About Me</h1>
+    <p><h5>Hi, my name is Garima Thapa. I go to Roosevelt High School, and I'm going into 11th grade. Before Girls Who Code, I didn't really know about computer programming.<h5></p> 
+    </body>
+    
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+       #map {
+        width: 100%;
+        height: 400px;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>My Google Maps Demo</h3>
+    <div id="map"></div>
+    <script>
+      function initMap() {
+        var mapDiv = document.getElementById('map');
+        var map = new google.maps.Map(mapDiv, {
+            center: {lat: 44.540, lng: -78.546},
+            zoom: 8
+        });
+      }
+    </script>
+            <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBKaSTJ0R3IINZ9KEkoSVq7HRCvAnIwCcU&callback=initMap">
+    </script>
+    <script>
+        function initMap() {
+            var myLatLng = {lat: 47.677388, lng: -122.313361};
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 10,
+                center: myLatLng
+            });
+            var marker = new google.maps.Marker({
+            position: myLatLng,
+            map: map,
+            });
+            /*var contentString = '<p>My School: Roosevelt High School</p>'
+            var infowindow = new google.maps.Infowindow({
+                content: contentString
+            });
+            marker.addListener("click", function() {
+                infowindow.open(map, marker);
+            });*/
+            var myLatLng2 = {lat: 47.648055, lng: -122.348490};
+            var marker2 = new google.maps.Marker({
+            position: myLatLng2,
+            map: map,
+            });
+
+            var myLatLng3 = {lat: 47.665528, lng: -122.312251};
+            var marker3 = new google.maps.Marker({
+            position: myLatLng3,
+            map: map,
+            });
+            
+        }
+        
+    </script>
+
+  </body>
+</html>
