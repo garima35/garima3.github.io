@@ -1,6 +1,6 @@
         function changeImg(){
             var img = document.getElementById("Hi");
-            img.src = "paddleball.png";
+            img.src = "paddleBall.png";
             
         }
 function Loading(){
